@@ -9,6 +9,8 @@ const adminRoutes = require("./routes/adminRoutes");
 const userRoutes = require("./routes/userRoutes");
 const User = require("./models/User");
 const connectDB = require("./config/db");
+require("dotenv").config();
+
 
 // MongoDB Connection
 connectDB();
